@@ -68,10 +68,6 @@
     .video-grid {
       grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-    .video-title {
-      font-size: 16px;
-      line-height: 24px;
-    }
   }
   .video-time {
     font-family: Roboto, Arial;
@@ -123,4 +119,13 @@
   .subscribers-counter {
     color: grey;
     font-size: 12px;
+  }
+  @media (min-width:1500px) {
+    .video-title {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .video-stats, .video-author {
+      font-size: 14px;
+    }
   }
