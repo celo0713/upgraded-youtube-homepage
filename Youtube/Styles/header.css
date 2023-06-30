@@ -30,6 +30,7 @@
 }
 .youtube-logo {
     height: 20px;
+    margin-left: 6px;
 }
 .middle-section {
     display: flex;
@@ -46,12 +47,14 @@
     font-size: 16px;
     border: 1px solid rgb(192, 192, 192);
     border-radius: 2px;
-    box-shadow: inset 1px 2px 3px rgba(0, 0, 0 0.05);
-    width: 0;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
 }
 .search-bar::placeholder {
     font-size: 16px;
-
+}
+.search-bar:focus {
+    outline: 1px solid  #1f5cc6;
+    outline-offset: -2px;
 }
 .search-button {
     height: 40px;
